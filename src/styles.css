@@ -1,0 +1,36 @@
+body {
+  background: rgb(22, 30, 77);
+  color: white;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  color: rgb(255, 83, 83);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+label {
+  margin-right: 10px;
+}
+input {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px 0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  background: rgb(3, 105, 136);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
